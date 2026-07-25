@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Tiago Dias - Portfólio</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.0/css/all.min.css" integrity="sha512-ApSLB1Pd3/bZN8fWB/RG9YhN/7bd9Hkf3AGaE2mPfebjrxagjuBtx2GcgdqIlJkUzwylBo61r9Xa9NmgBI0swA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Google+Sans+Code:ital,wght,MONO@0,300..800,1;1,300..800,1&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="css/styles.css">
+    </head>
+    <body>
+        <header>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link">Início</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">Sobre Mim</a></li>
+                    <li class="nav__item"><a href="#projects" class="nav__link">Projetos</a></li>
+                </ul>
+            </nav>
+        </header>  
+        
+        <!-- Introducao -->
+        <section class="intro" id="home">
+            <h1 class="section__title section__title--intro">
+                <strong>Tiago Leite Dias</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">Desenvolvedor Front-End</p>
+            <img src="img/foto-apresentacao.jpg" alt="" class="intro__img">
+        </section>
+
+        <!-- Sobre Mim -->
+        <section class="about-me" id="about">
+            <h2 class=""section__title section__title--about">Quem sou eu?</h2>
+            <!-- <p class="section__subtitle section__subtitle--about"></p> -->
+
+            <div class="about-me__body">
+                <p>Bacharel em Ciência e Tecnologia pela Universidade Federal do ABC. Estudante de programação no site freeCodeCamp.</p>
+            </div>
+        </section>
+
+        <!-- Projetos -->
+        <section class="my-projects" id="projects">
+            <h2 class="section__title">Projetos</h2>
+            <p class="section__subtitle section__subtitle--projects">Javascript</p>
+
+            <!-- Portfolio Items -->
+            <div class="portfolio">
+                <figure>
+                    <a href="https://github.com/tiagoldias/JS-Project-markdownToHTMLConverter" target="_blank" class="portfolio__item">
+                        <img src="img/markdownToHTML.PNG" alt="Imagem de programa de conversão de markdown em html" class="portfolio__img">
+                    </a>
+                    <figcaption>Conversor de markdown em HTML</figcaption>
+                </figure>
+
+                <figure>
+                    <a href="https://github.com/tiagoldias/JS-Project-Drum-Machine" target="_blank" class="portfolio__item">
+                        <img src="img/drumBox.PNG" alt="Imagem de programa que simula caixa de ritmos" class="portfolio__img">
+                    </a>
+                    <figcaption>Caixa de Ritmos</figcaption>
+                </figure>
+
+                <figure>
+                    <a href="https://github.com/tiagoldias/JS-Project-Voting-System" target="_blank" class="portfolio__item">
+                        <img src="img/votingSystem.png" alt="Imagem que ilustra programa em javascript de votação" class="portfolio__img">
+                    </a>
+                    <figcaption>Sistema de Votação Básico</figcaption>
+                </figure>
+
+                <figure>
+                    <a href="https://github.com/tiagoldias/JS-Project-Bank-Account-Management-Program" target="_blank" class="portfolio__item">
+                        <img src="img/bankAccount.png" alt="Imagem que ilustra programa em javascript de gerenciamento de contas" class="portfolio__img">
+                    </a>
+                    <figcaption>Programa Básico de Gestão de Contas</figcaption>
+                </figure>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <ul class="social-list">
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://github.com/tiagoldias">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://www.linkedin.com/in/tiago-leite-dias-2208202a0">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                </li>
+            </ul>
+        </footer>
+
+        <script src="js/index.js"></script>
+    </body>
+</html>
